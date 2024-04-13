@@ -16,4 +16,5 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/customer', App\Livewire\CustomerIndex::class)->name('customer.index');
+    Route::get('/produk', App\Livewire\Produk\ProdukIndex::class)->name('produk.index');
 });
